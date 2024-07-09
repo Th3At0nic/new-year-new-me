@@ -1,0 +1,32 @@
+/* shared styels */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* headers styles */
+header {
+  background-image: url("./images/banner/banner3.png");
+  height: 800px;
+}
+header div {
+  text-align: right;
+}
+.header-title {
+  color: #fff;
+  font-size: 55px;
+  padding: 230px 190px 0 700px;
+}
+.header-description {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 190px 30px 830px;
+}
+
+.btn-header {
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-right: 190px;
+}
