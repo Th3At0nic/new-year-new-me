@@ -8,6 +8,18 @@ main section {
   margin-top: 100px;
 }
 
+.btn-primary {
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-right: 190px;
+  font-size: 17px;
+  color: #005fac;
+  text-align: center;
+  font-weight: 600;
+}
+
 /* headers styles */
 header {
   background-image: url("./images/banner/banner3.png");
@@ -25,14 +37,6 @@ header div {
   color: #fff;
   font-size: 16px;
   padding: 20px 190px 30px 830px;
-}
-
-.btn-header {
-  border-radius: 5px;
-  background: #fff;
-  padding: 10px 20px;
-  border: 0;
-  margin-right: 190px;
 }
 
 /* main section styles */
@@ -95,4 +99,31 @@ header div {
   color: #737272;
   text-align: center;
   font-size: 19px;
+}
+
+/* positive mindset styles */
+.positive-mindset-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 1140px;
+  height: 200px;
+  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  position: relative;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.positive-mindset-content {
+  padding-left: 100px;
+  width: 40%;
+}
+
+.positive-mindset-content h4 {
+  color: #fff;
+  font-size: 35px;
+  padding-bottom: 16px;
 }
