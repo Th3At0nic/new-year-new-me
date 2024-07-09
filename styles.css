@@ -66,3 +66,33 @@ header div {
   font-size: 22px;
   color: #16d887;
 }
+
+/* My Plans sections styles */
+.plan-title {
+  color: #151414;
+  text-align: center;
+  font-size: 35px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 40px 100px;
+}
+
+.plan-content img {
+  padding-bottom: 12px;
+}
+
+.plan-content h5 {
+  color: #151414;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.plan-content h6 {
+  color: #737272;
+  text-align: center;
+  font-size: 19px;
+}
