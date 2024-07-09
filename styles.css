@@ -4,6 +4,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+main section {
+  margin-top: 100px;
+}
+
 /* headers styles */
 header {
   background-image: url("./images/banner/banner3.png");
@@ -14,7 +18,7 @@ header div {
 }
 .header-title {
   color: #fff;
-  font-size: 55px;
+  font-size: 58px;
   padding: 230px 190px 0 700px;
 }
 .header-description {
@@ -29,4 +33,36 @@ header div {
   padding: 10px 20px;
   border: 0;
   margin-right: 190px;
+}
+
+/* main section styles */
+.my-failures-container {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  margin: 0 130px;
+  align-items: center;
+}
+.failure-column {
+  width: 50%;
+  text-align: left;
+}
+
+.failure-title {
+  color: #151414;
+  font-size: 35px;
+  width: 50%;
+}
+
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  padding-top: 25px;
+  width: 80%;
+  padding-bottom: 15px;
+}
+
+.check-sign {
+  font-size: 22px;
+  color: #16d887;
 }
